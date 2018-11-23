@@ -1,0 +1,23 @@
+{
+  "name": "tensorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --target=node index.js & nodemon dist/index.js"
+  },
+  "author": "Chris Liu",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.13.5",
+    "@tensorflow/tfjs-node": "^0.1.21",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "parcel": "^1.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
